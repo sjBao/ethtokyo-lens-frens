@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@apollo/client": "^3.7.12",
+    "@lens-protocol/react-web": "^1.0.1",
+    "@lens-protocol/wagmi": "^1.0.1",
     "@types/node": "18.15.11",
     "@types/react": "18.0.35",
     "@types/react-dom": "18.0.11",
@@ -20,7 +22,8 @@
     "next": "13.3.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
-    "typescript": "5.0.4"
+    "typescript": "5.0.4",
+    "wagmi": "^0.12.10"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.14",

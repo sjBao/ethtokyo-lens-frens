@@ -2,7 +2,7 @@
 'use client'
 import { useState, useEffect } from 'react'
 import { usePathname } from 'next/navigation';
-import { client, getPublications, getProfile } from '../../../api'
+import { client, getPublications, getProfile } from '@/graphql/profiles'
 
 export default function Profile() {
   /* create initial state to hold user profile and array of publications */
